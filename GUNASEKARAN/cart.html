@@ -1,0 +1,153 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    .cart {
+      max-width: 600px;
+      margin: auto;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .cart-item:last-child {
+      border-bottom: none;
+    }
+    .cart-item-info {
+      flex: 2;
+    }
+    .cart-item-controls {
+      flex: 1;
+      text-align: right;
+    }
+    .cart-item-controls input {
+      width: 40px;
+      text-align: center;
+      nav a { color: rgb(2, 1, 1); margin: 25px; text-decoration: none; }
+  nav a:hover { text-decoration: underline; }
+    }
+    .total {
+      text-align: right;
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+    .checkout-btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+   <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">cart</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  
+    <h2>Your Cart</h2>
+
+    <div class="cart-item">
+      <div class="cart-item-info">
+        <strong>t Shirt</strong><br>
+        ₹350
+      </div>
+      <div class="cart-item-controls">
+        Qty: <input type="number" value="1" min="1">
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <div class="cart-item-info">
+        <strong>Trousers</strong><br>
+        ₹400
+      </div>
+      <div class="cart-item-controls">
+        Qty: <input type="number" value="1" min="1">
+      </div>
+    </div>
+    <div class="cart-item">
+      <div class="cart-item-info">
+        <strong>formal pants</strong><br>
+        ₹700
+      </div>
+      <div class="cart-item-controls">
+        Qty: <input type="number" value="1" min="1">
+      </div>
+    </div>
+    <div class="cart-item">
+      <div class="cart-item-info">
+    
+        <strong>formal shirts</strong><br>
+        ₹900
+      </div>
+      <div class="cart-item-controls">
+        Qty: <input type="number" value="1" min="1">
+      </div>
+      </div>
+    <div  class="cart-item">
+      <div class="cart-item-info">
+        <strong>watchs</strong><br>
+        ₹550
+      </div>
+      <div class="cart-item-controls">
+        Qty: <input type="number" value="1" min="1">
+      </div>
+      </div>
+      <div class="cart-item">
+      <div class="cart-item-info">
+        <strong>sunglasses & belt</strong><br>
+        ₹300
+    </div>
+    <div class="cart-item-controls">
+        Qty: <input type="number" value="1" min="1">
+      </div>
+    </div>
+  <div class="cart-item">
+      <div class="cart-item-info">
+        <strong>perfume</strong><br>
+        ₹450
+    </div>
+    <div class="cart-item-controls">
+        Qty: <input type="number" value="1" min="1">
+      </div>
+    </div>
+
+     <div class="cart-item">
+      <div class="cart-item-info">
+        <strong>shoes</strong><br>
+        ₹600
+    </div>
+      <div class="cart-item-controls">
+        Qty: <input type="number" value="1" min="1">
+      </div>
+    </div>
+    <div class="total">
+      Total: <strong>₹4250</strong>
+    </div>
+
+    <button class="checkout-btn">Proceed to Checkout</button>
+  </div>
+
+</body>
+</html>

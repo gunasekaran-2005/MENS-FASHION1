@@ -1,0 +1,147 @@
+ <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Men's Wear Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    nav a { color: rgb(0, 0, 0); margin: 0 15px; text-decoration: none; }
+  nav a:hover { text-decoration: underline; }
+    .product-card {
+      background: white;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+      padding: 1rem;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    }
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .product-name {
+      margin: 0.8rem 0 0.5rem 0;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .product-price {
+      color: #27ae60;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .add-to-cart-btn {
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      padding: 0.5rem 1.2rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    .add-to-cart-btn:hover {
+      background-color: #219150;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Men's Wear Shop
+  </header>
+     <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">cart</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+
+      <div class="product-card">
+        <img src="./src/mm.avif"width="300px" alt=""> 
+        <div class="product-name">t T-Shirt</div>
+        <div class="product-price">350</div>
+        <a href="./cart.html"><button class="add-to-cart-btn">Add to cart</button></a>
+       <div class="product-card">
+        <img src="./src/ll.png"width="300" alt=""> 
+        <div class="product-name">trousers</div>
+        <div class="product-price">400</div>
+        <a href="./cart.html"><button class="add-to-cart-btn">Add to cart</button></a>
+        <div class="product-card">
+        <img src="./src/d.avif"width="300" alt=""> 
+        <div class="product-name">formal Shirt</div>
+        <div class="product-price">900</div>
+        <a href="./cart.html"><button class="add-to-cart-btn">Add to cart</button></a>
+
+
+        </div>
+      <div class="product-card">
+        <img src="./src/pp.webp"width="300" alt=""> 
+        <div class="product-name">formal pants</div>
+        <div class="product-price">700</div>
+        <a href="./cart.html"><button class="add-to-cart-btn">Add to cart</button></a>
+<div class="product-card">
+        <img src="./src/watch.jpg"width="300" alt=""> 
+        <div class="product-name">watch</div>
+        <div class="product-price">550</div>
+        <a href="./cart.html"><button class="add-to-cart-btn">Add to cart</button></a>
+<div class="product-card">
+        <img src="./src/sunglasses &belt.jpg"width="300" alt=""> 
+        <div class="product-name">sunglasses & belt</div>
+        <div class="product-price">300</div>
+        <a href="./cart.html"><button class="add-to-cart-btn">Add to cart</button></a>
+      <div class="product-card">
+        <img src="./src/per.webp"width="300" alt=""> 
+        <div class="product-name">perfume</div>
+        <div class="product-price">450</div>
+        <a href="./cart.html"><button class="add-to-cart-btn">Add to cart</button></a>
+      <div class="product-card">
+        <img src="./src/sparx-blue-shoe-men-sm-830-product-images-rvlrwqejts-7-202308181555.webp"width="300" alt=""> />
+        <div class="product-name">shoes</div>
+        <div class="product-price">600</div>
+        <a href="./cart.html"><button class="add-to-cart-btn">Add to cart</button></a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Men's Wear Shop. All rights reserved.
+  </footer>
+
+</body>
+</html>
